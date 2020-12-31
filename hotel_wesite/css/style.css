@@ -250,6 +250,11 @@ border-radius: 50%;
   height: 200px;
 }
 
+#contact-form input:focus, #contact-form textarea:focus {
+outline: none;
+border-color: #f7c08a;
+}
+
 /* footer */
 #main-footer {
   text-align: center;
