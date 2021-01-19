@@ -34,9 +34,13 @@
   }
 }
 
-button[classˆ="btn-"]:hover,
-a[classˆ="btn-"]:hover,
-input[classˆ="btn-"]:hover {
+.btn-light:hover {
+  background-color: $main-color;
+}
+
+button[class*="btn-"]:hover,
+a[class*="btn-"]:hover,
+input[class*="btn-"]:hover {
   background-color: $main-color;
 }
 
@@ -47,4 +51,35 @@ input[classˆ="btn-"]:hover {
 
 .text-center {
   text-align: center;
+}
+
+// Padding
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+  &-4 {
+    padding: 4 rem 0;
+  }
+}
+// Margin
+.my {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4 rem 0;
+  }
 }

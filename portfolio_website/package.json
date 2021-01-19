@@ -6,7 +6,7 @@
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "author": "",
+  "author": "Sena Eyupoglu",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^5.0.0"
