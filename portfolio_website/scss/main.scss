@@ -333,6 +333,7 @@ img {
       .message-input {
         grid-area: message;
         height: 100px;
+        font-family: Arial;
       }
 
       .text-input {
@@ -356,7 +357,7 @@ img {
   &-c {
     h1 {
       text-align: center;
-      font-size: 110px;
+      font-size: 7rem;
     }
   }
 }
@@ -393,3 +394,6 @@ img {
     }
   }
 }
+
+// Import Media Queries
+@import "media";
