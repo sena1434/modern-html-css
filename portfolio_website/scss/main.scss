@@ -1,5 +1,6 @@
 @import "config";
 @import "utilities";
+@import "item_grid.scss";
 
 // General Styles
 
@@ -299,6 +300,38 @@ img {
         height: 50px;
         border-radius: 50%;
         margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+// Contact Page
+#contact {
+  &-a {
+    .text-fields {
+      display: grid;
+      grid-template-areas:
+        "name email"
+        "subject phone"
+        "message message ";
+      grid-gap: 1.2rem;
+      margin-bottom: 1.2rem;
+
+      // Grid Areas
+      .name-input {
+        grid-area: name;
+      }
+      .subject-input {
+        grid-area: name;
+      }
+      .email-input {
+        grid-area: name;
+      }
+      .phone-input {
+        grid-area: name;
+      }
+      .message -input {
+        grid-area: name;
       }
     }
   }
